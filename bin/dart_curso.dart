@@ -252,8 +252,8 @@ abstract class MontarPC {
 
 void funcAguenta({required int energiaFonte, required int energiaComponentes}) {
   if (energiaFonte >= energiaComponentes) {
-    print("esta budega aguenta o tranco");
+    print("A fonte aguenta a sua config!");
   } else {
-    print("se fudeu papai");
+    print("Vai ter que trocar de fonte!");
   }
 }
